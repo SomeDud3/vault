@@ -1,0 +1,54 @@
+{
+ "name": "Vault",
+ "short_name": "Vault",
+ "description": "Abgaben, Lösungen & Lernzettel",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#0c0e14",
+ "theme_color": "#5b5bf0",
+ "icons": [
+  {
+   "src": "icon.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Üben",
+   "url": "./#practice",
+   "icons": [
+    {
+     "src": "icon.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Abgaben",
+   "url": "./#list",
+   "icons": [
+    {
+     "src": "icon.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
